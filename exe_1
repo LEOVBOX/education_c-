@@ -1,0 +1,18 @@
+using System;
+namespace Education
+{
+    class ArrayExample
+    {
+        static void Main()
+        {
+            Console.WriteLine("Введите Ваше Имя:");
+            string name = Console.ReadLine();
+            SendMessage(name);
+
+        }
+        static void SendMessage(string name)
+        {
+            Console.WriteLine("Hello, " + name);
+        }
+    }
+}
